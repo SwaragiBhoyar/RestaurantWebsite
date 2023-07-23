@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flexbox;
+  background: url(image/img3.jpg);
+  background-color:black;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+.logo {
+  font-size: 2rem;
+  color: #fff;
+  user-select: none;
+  align-items: center;
+  
+}
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 15px;
+}
+.navigation a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+.navigation a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.navigation .btnlogin-popup {
+  width: 125px;
+  height: 45px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin: 20px;
+  transition: 0.5s;
+}
+.navigation .btnlogin-popup:hover {
+  background: #fff;
+  color: #162938;
+}
+
+.conatiner {
+  padding: 1% ;
+}
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: transparent;
+}
+.btn-primary {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  
+}
+.btn-primary:hover {
+  background-color: #ff2546;
+}
+.btn-primary {
+    text-decoration: none;
+}
+
+/*CSS for food search section*/
+
+.food-search {
+  background-image: url(image/pexels-chan-walrus-958545.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+.text-center {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.img-responsive{
+    width: 100%
+}
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+.text-white{
+    color:white;
+}
+/* Css for categories*/
+
+.categories{
+    padding: 320px 50px;
+    color: white;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+
+}
+.h3{
+   font-size: 1.5rem; 
+   margin-bottom: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 10px;
+}
+/*CSS food menu starts here*/
+.food-menu{
+   padding: 4%;
+}
+.food-menu-box{
+    border: 1px solid rgb(234, 230, 230);
+    width: 45%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    border-radius: 15px;
+
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width:70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: rgb(218, 206, 206);
+}
+/*Css for social incons*/
+.social ul{
+  list-style-type: none;
+  
+  
+}
+.social ul li{
+ display: inline;
+ padding: 1%;
+}
+.text-safe {
+  font-size: 1rem;
+  text-align: center;
+}
+.text-decoration{
+  text-decoration: none;
+  color: #2542ff;
+}
+
